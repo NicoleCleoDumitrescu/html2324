@@ -1,0 +1,32 @@
+body{
+    margin: 20 auto;
+    width: 100%;
+    max-width: 1600px;
+
+}
+
+div{
+    width: 100%;
+    max-width: 600px;
+   /* margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    margin-left: 15px;*/
+    margin: 10px 25px 15px 20px;
+    padding: 25px;
+    float: left;
+    border-top: 2px solid red;
+    border-right: 2px dotted blue;
+    border-bottom: 2px solid green;
+    border-left: 2px dotted orange;
+   /*border-color: blue; 
+    border-style: double;
+   border-width: 2px; */
+    /* border:2px double blue;*/  
+    border-radius: 25px;
+    background-image: url("../../curs2/Images/fav/android-chrome-512x512.png");
+    text-align: center;
+    color: #210d9f;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+ }

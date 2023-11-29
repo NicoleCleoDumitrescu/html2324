@@ -1,0 +1,43 @@
+nav{
+    flex-grow: 100%;
+    height: 50px;
+    background-color: rgb(109, 27, 27);
+}
+nav ul li{
+    float:left;
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 25px;
+
+}
+nav ul li{
+    color:#ffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.active, li:hover{
+    background-color: rgb(89, 89, 186);
+    font-weight: bold;
+}
+nav ul{
+  width: 100%; 
+  max-width: 600px; 
+  margin: auto;
+  
+}
+nav ul li a{
+    color: #ffffff;
+    text: 2em;
+}
+div img {
+  width: 100%;
+  max-width: 1400;
+  float:left
+  border 25px auto;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+    
+
+
