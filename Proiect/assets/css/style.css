@@ -2,9 +2,7 @@
   width:100px;
   margin: 20px auto;
   display: block;
-
 }
-
 
 nav{
     width: 100%;
@@ -22,7 +20,7 @@ nav ul li{
 }
 nav ul li{
     color:#240202;
-    font-size: 16px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif; 
 }
 .active, li:hover{
@@ -31,7 +29,7 @@ nav ul li{
 }
 nav ul{
   width: 100%; 
-  max-width: 600px; 
+  max-width: 800px; 
   margin: auto;
   
 }
@@ -39,7 +37,8 @@ nav ul li a{
     color: #312727;
     flex: 2em;
 }
-* {box-sizing:border-box;
+* {
+  box-sizing:border-box;
 }
 
 body div section img {
@@ -73,7 +72,6 @@ div img {
   border 25px auto;
   border-radius: 25px;
   padding: 25px;
-  box-shadow: 5px 10px rgb(240, 186, 186); 
   padding-block: 10px;
 }
     
