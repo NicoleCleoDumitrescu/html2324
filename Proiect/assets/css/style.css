@@ -11,9 +11,9 @@ nav{
     font-family: 'Dosis', sans-serif;
     font-family: 'PT Serif', serif !important;
 }
+
 nav ul li{
     float:left;
-    
     list-style: none;
     padding: 10px 25px;
 
@@ -36,6 +36,7 @@ nav ul{
 nav ul li a{
     color: #312727;
     flex: 2em;
+    margin: auto;
 }
 * {
   box-sizing:border-box;

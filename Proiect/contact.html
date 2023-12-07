@@ -41,6 +41,10 @@
     <!-- Header Showcase -->
     <header id="showcase" class="grid">
       <div class="bg-image"></div>
+     <img class="bg-image"
+      src="./assets/images/_Sweeteria_Site_image2 (2)/logo2.png"
+      alt="logoSweeteria" width="100px"/> 
+      <!-- daca bag val de width embeded o ia, insa din extern nu o ia in seama. dece????? -->
       <div class="content-wrap"></div>
     </header>
     <nav>
@@ -64,7 +68,8 @@
 
       <!-- Section B -->
       <section id="section-b" class="grid">
-        <p>Leave your message and we'll get back to you shortly.</p>
+
+        <p id="leave-message">Leave your message and we'll get back to you shortly.</p>
 
         <box>
           <h1>HTML5 Canvas</h1>
@@ -101,33 +106,70 @@
       <!DOCTYPE html>
       <html>
       <body>
-      
-      <h2>Text input fields</h2>
-      
-      <form action="/action_page.php">
 
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value=""><br>
-        <label for="phone_number">Phone number:</label><br>
-        <input type="phone_number" id="phone_numbers" name="phone numbers" value="+40"><br><br>
-        <input type="submit" value="Submit">
+      <form action="" method="post">
+        <fieldset>
+          <div>
+            <label for="fname">Firs tName</label>
+            <input type="text" name="fname" id="fname" value="" required minlength="4">
+        </div>
+
+          <div>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" value="" required minlength="4">
+        </div>
+        </fieldset>
+        <fieldset>
+         <div> <label for="tel">Phone number:</label> 
+          <input type="tel" name="tel" value="+40" >
+        </div>
+        <div>
+         <label for="email">Your email</label>
+         <input type="email" name="email"  id="emal" value="">
+        </div>
+        </fieldset>
+        <button type="submit">Submit your data!</button>
         </form>
       
      <!-- <p>Note that the form itself is not visible.</p>
       
       <p>Also note that the default width of text input fields is 20 characters.</p> -->    
-      </body>
-      </html>
+    
       
       <!-- Section D -->
       <section id="section-d" class="grid"></section>
     </main>
+  </body>
+  </html>
     <!-- Footer -->
+<!-- 
     <footer id="main-footer" class="grid">
       <div>My Project</div>
       <div>Project By <a href="" target="_blank">LinkAcademy</a></div>
-    </footer>
+    </footer> -->
+
+    <!-- Footer -->
+    <footer id="main-footer" class="grid">
+      <div class="footer-background-img">
+        <img  
+        src="../Proiect/assets/images/_Sweeteria_Site_image2 (2)/sweeteria Land/SWEETERIA_footer_image2_signature.jpg" 
+        alt="Sweeteria footer" >
+      </div> 
+       <div class="myproject">My Project
+        <h3> For more infos, vizit our pages!</h3>
+      </div>
+      <div class-="footer-nav">
+         <nav> 
+        <ul>
+            <li a href="acasa.html">Home</a></li></li>
+            <li ><a href="portofoliu.html">Portofoliu</a></li>            <li>Blog</li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="despre-noi.html">Despre noi</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+     </nav>
+    </div>
+     
+    
   </body>
 </html>

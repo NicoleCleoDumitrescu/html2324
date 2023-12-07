@@ -1,0 +1,28 @@
+form{
+    width: 500px;
+    border:1px #e3e3e3 solid:  
+    margin auto;
+}
+     form div{
+        margin 15px 0px;
+     }
+
+
+label{
+    width: 100px;
+    text-align: right;
+    display: inline-block;   
+}
+
+input{
+    padding: 20px;
+    display: inline-block;
+    width: 200px;
+
+}
+#check{
+    display: inline-block;
+    width: 20px;
+    padding: 0px;
+
+}

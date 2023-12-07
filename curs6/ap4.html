@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formular de contact</h2>
+    <!-- Formularul de contact: -->
+   <form action="" method="post" enctype="multipart/form-data">
+ 
+    <!-- selectare oras -->
+    <div>
+    <label for="oras">Selecteaza orasul</label>
+
+    <select name="oras" id="oras" required>
+    <option value="1">Bucuresti</option>
+    <option value="2">Arad</option>
+    <option value="3">Deva</option>
+    <option value="4">Iasi</option>
+     </select>
+</div>
+<!-- selectare cursuri -->
+<div>
+<label for="cursuri">Cursurile dorite</label>
+<select name="cursuri" id="cursuri"  multiple> 
+    <option value="html">HTML</option> 
+    <option value="css">CSS</option> 
+    <option value="js">JavaScript</option> 
+    <option value="react">React</option> 
+</select>
+</div>
+<!-- text box -----se face cu tagul <textarea> -->
+<div>
+    <label for="mesaj">Mesaj</label> 
+    <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea>
+</div>
+
+<!-- cv -->
+<div>
+<label for="CV">CV</label>
+    <input type="file" name="CV" id="CV">
+</div>
+<!--  program cursuri checkbox-->
+<fieldset>
+    <legend>Program cursuri</legend>
+    <label for="dim">dimineta</label>
+    <input type="radio" name="program" id="dim" value="dimineata">
+    <label for="dim">pranz</label>
+    <input type="radio" name="program" id="pranz" value="pranz">
+    <label for="dim">seara</label>
+    <input type="radio" name="program" id="seara" value="seara" checked>
+</fieldset>
+<!-- termeni + abonare -->
+<div>
+
+ <input type="checkbox" name="termeni" id="termeni" value="1">  
+  <label for="termeni">Termeni si conditii</label>
+
+  <input type="checkbox" name="abonat" id="abonat">  
+<label for="abonat">Ma abonez</label>
+
+</div>
+<!-- submit -->
+<div>
+    <input type="submit" value="Trimite datele">
+</div>
+
+</form>
+</body>
+</html>
