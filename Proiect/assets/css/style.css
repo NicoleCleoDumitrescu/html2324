@@ -241,8 +241,28 @@ text-shadow: #907272;
    z-index: 1;
 
   }
+  /* CSS pt XMAS SVG-uri */
   div.svg-area svg{
 margin: 25px auto;
 display: inline-block;
 position: relative center;
   }
+ div> .Izwocg {
+  display:inline-block;
+  width: 250px; 
+  height: 250px; 
+  transform: translate(0px, 0px) 
+  rotate(0deg);
+  position: relative;
+ }
+ ._7_i_XA {
+  object-fit: fill;
+  
+ }
+ ._2y_DBA{
+  width: 250px;
+  height: 250px; 
+  margin: 0px;
+  display:inline-block
+ }  
+ /* end of CSS pt XMAS SVG-uri */
