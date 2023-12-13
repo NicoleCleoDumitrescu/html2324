@@ -7,7 +7,7 @@
   nav{
       width: 100%;
       height: 60px;
-      background-color: rgb(240, 186, 186);
+      background-color: rgba(240, 186, 186, 0.439);
       font-family: 'Dosis', sans-serif;
       font-family: 'PT Serif', serif !important;
     }
@@ -38,6 +38,11 @@
       flex: 2em;
       margin: auto;
   }
+
+.active, td:hover{
+  background-color: rgb(139, 235, 250);
+  font-weight: bold;
+}
   * {
     box-sizing:border-box;
   }
